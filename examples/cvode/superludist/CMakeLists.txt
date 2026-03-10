@@ -82,7 +82,7 @@ else()
 endif()
 
 # create Makefile and CMakeLists.txt for examples
-if(EXAMPLES_INSTALL)
+if(SUNDIALS_ENABLE_EXAMPLES_INSTALL)
 
   sundials_install_examples(
     cvode_superludist CVODE_examples

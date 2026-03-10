@@ -63,6 +63,12 @@ table below lists the old CMake option names and the new replacements.
 | `SUNDIALS_BUILD_WITH_PROFILING`         | `SUNDIALS_ENABLE_PROFILING`                    |
 | `SUNDIALS_BUILD_WITH_MONITORING`        | `SUNDIALS_ENABLE_MONITORING`                   |
 | `SUNDIALS_BUILD_PACKAGE_FUSED_KERNELS`  | `SUNDIALS_ENABLE_PACKAGE_FUSED_KERNELS`        |
+| `EXAMPLES_ENABLE_C`                     | `SUNDIALS_ENABLE_C_EXAMPLES`                   |
+| `EXAMPLES_ENABLE_CXX`                   | `SUNDIALS_ENABLE_CXX_EXAMPLES`                 |
+| `EXAMPLES_ENABLE_F2003`                 | `SUNDIALS_ENABLE_FORTRAN_EXAMPLES`             |
+| `EXAMPLES_ENABLE_CUDA`                  | `SUNDIALS_ENABLE_CUDA_EXAMPLES`                |
+| `EXAMPLES_INSTALL`                      | `SUNDIALS_ENABLE_EXAMPLES_INSTALL`             |
+| `EXAMPLES_INSTALL_PATH`                 | `SUNDIALS_EXAMPLES_INSTALL_PATH`               |
 | `BUILD_BENCHMARKS`                      | `SUNDIALS_ENABLE_BENCHMARKS`                   |
 | `BENCHMARKS_INSTALL_PATH`               | `SUNDIALS_BENCHMARKS_INSTALL_PATH`             |
 | `SUNDIALS_BENCHMARK_OUTPUT_DIR`         | `SUNDIALS_BENCHMARKS_OUTPUT_DIR`               |
