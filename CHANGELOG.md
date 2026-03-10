@@ -69,6 +69,11 @@ table below lists the old CMake option names and the new replacements.
 | `SUNDIALS_BENCHMARK_CALIPER_OUTPUT_DIR` | `SUNDIALS_BENCHMARKS_CALIPER_OUTPUT_DIR`       |
 | `SUNDIALS_BENCHMARK_NUM_CPUS`           | `SUNDIALS_BENCHMARKS_NUM_CPUS`                 |
 | `SUNDIALS_BENCHMARK_NUM_GPUS`           | `SUNDIALS_BENCHMARKS_NUM_GPUS`                 |
+| `ENABLE_ALL_WARNINGS`                   | `SUNDIALS_ENABLE_ALL_WARNINGS`                 |
+| `ENABLE_WARNINGS_AS_ERRORS`             | `CMAKE_COMPILE_WARNING_AS_ERROR`               |
+| `ENABLE_ADDRESS_SANITIZER`              | `SUNDIALS_ENABLE_ADDRESS_SANITIZER`            |
+| `ENABLE_MEMORY_SANITIZER`               | `SUNDIALS_ENABLE_MEMORY_SANITIZER`             |
+| `ENABLE_LEAK_SANITIZER`                 | `SUNDIALS_ENABLE_LEAK_SANITIZER`               |
 
 Following the updated CMake options, the macros listed below have been
 deprecated and replaced with versions that align with the new CMake options.
