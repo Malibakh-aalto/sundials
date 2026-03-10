@@ -61,6 +61,7 @@ table below lists the old CMake option names and the new replacements.
 | `KOKKOS_KERNELS_WORKS`                  | `SUNDIALS_ENABLE_KOKKOS_KERNELS_CHECKS`        |
 | `BUILD_FORTRAN_MODULE_INTERFACE`        | `SUNDIALS_ENABLE_FORTRAN`                      |
 | `SUNDIALS_BUILD_WITH_PROFILING`         | `SUNDIALS_ENABLE_PROFILING`                    |
+| `SUNDIALS_BUILD_WITH_MONITORING`        | `SUNDIALS_ENABLE_MONITORING`                   |
 | `BUILD_BENCHMARKS`                      | `SUNDIALS_ENABLE_BENCHMARKS`                   |
 | `BENCHMARKS_INSTALL_PATH`               | `SUNDIALS_BENCHMARKS_INSTALL_PATH`             |
 | `SUNDIALS_BENCHMARK_OUTPUT_DIR`         | `SUNDIALS_BENCHMARKS_OUTPUT_DIR`               |
@@ -71,9 +72,10 @@ table below lists the old CMake option names and the new replacements.
 Following the updated CMake options, the macros listed below have been
 deprecated and replaced with versions that align with the new CMake options.
 
-| Old Macro                       | New Macro                   |
-|---------------------------------|-----------------------------|
-| `SUNDIALS_BUILD_WITH_PROFILING` | `SUNDIALS_ENABLE_PROFILING` |
+| Old Macro                        | New Macro                    |
+|----------------------------------|------------------------------|
+| `SUNDIALS_BUILD_WITH_PROFILING`  | `SUNDIALS_ENABLE_PROFILING`  |
+| `SUNDIALS_BUILD_WITH_MONITORING` | `SUNDIALS_ENABLE_MONITORING` |
 
 ## Changes to SUNDIALS in release 7.6.0
 
